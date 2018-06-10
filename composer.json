@@ -1,0 +1,26 @@
+{
+    "name": "lakshmaji/exceptions",
+    "description": "Exception Handler for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lakshmaji",
+            "email": "lakshmajee88@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lakshmaji\\Exceptions\\": "src" 
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lakshmaji\\Exceptions\\ExceptionServiceProvider"
+            ]
+        }
+    }
+    
+}
